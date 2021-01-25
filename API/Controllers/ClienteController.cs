@@ -17,12 +17,6 @@ namespace StoneAPI.Controllers
             _clienteService = clienteService;
         }
 
-        [HttpGet("teste")]
-        public ActionResult<IEnumerable<string>> GetTest()
-        {
-            return new string[] { "teste1", "teste2" };
-        }
-
         /// <summary>
         /// Lista os clientes.
         /// </summary>
