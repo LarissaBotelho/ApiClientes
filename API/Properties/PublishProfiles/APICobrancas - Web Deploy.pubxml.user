@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyZ4LSCAtx0iGspw6Hlqo7AAAAAACAAAAAAAQZgAAAAEAACAAAACUM9HzifTAn+y+rz8UxWpSWh2pJcKWJSIdQKCaT0Qz7AAAAAAOgAAAAAIAACAAAADeS4YuuZJsyX9q1nXno8OCApZ0IV0BTwu95jTgstco84AAAAAPsP2Kr1itOsmsVePUbxXVauKDwQp8Wo0x8edD5U8zQhIHfPAGBrhisTRlDlKrTGytKDasrdHclmgUOlimnKuLuMSHZgiBCvkAJzIfLNqqiTsnCV/SzoxIzeoSRSkA+1h7RnOT3DrJ5BL2HgkR466+pObD5gvUEbk+y6V3EMzCbUAAAAAs5N2HcBcKjimNvT7AXZBwHqNoDzRkKQ65mnSOA1TkfXlE5X0hduAzf6oN5X4rRCC9/yz+7IG9vCPzHhELU5/u</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>mongodb+srv://Admin:ZcO9jEz64QBAr4Q5%40apicluster.jw2sl.mongodb.net/CobrancaDB%3fretryWrites=true&amp;w=majority</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

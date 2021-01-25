@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:StoneAPI.Controllers.CalculoController.Calcular">
+            <summary>
+            Executa o cálculo das cobranças.
+            </summary>
+            <response code="200">Calculo todas as cobranças para os clientes cadastrados.</response>
+        </member>
+        <member name="M:StoneAPI.Controllers.ClienteController.Get">
+            <summary>
+            Lista os clientes.
+            </summary>
+            <returns>Os clientes cadastrados.</returns>
+            <response code="200">Retorna todos os clientes cadastrados.</response>
+        </member>
+        <member name="M:StoneAPI.Controllers.ClienteController.Get(System.String)">
+            <summary>
+            Lista os clientes por Id.
+            </summary>
+            <returns>Os clientes cadastrados com o id informado.</returns>
+            <response code="200">Retorna todos os clientes cadastrados com o id informado.</response>
+        </member>
+        <member name="M:StoneAPI.Controllers.ClienteController.GetByCpf(System.String)">
+            <summary>
+            Lista os clientes por cpf.
+            </summary>
+            <returns>Os clientes cadastrados com o cpf informado.</returns>
+            <response code="200">Returna todos os clientes cadastrados com o cpf informado.</response>
+        </member>
+        <member name="M:ApiCobranca.Controllers.CobrancaController.Get">
+            <summary>
+            Lista as cobranças.
+            </summary>
+            <returns>As cobranças cadastradas.</returns>
+            <response code="200">Returna todas as cobranças cadastradas.</response>
+        </member>
+        <member name="M:ApiCobranca.Controllers.CobrancaController.Get(System.String)">
+            <summary>
+            Lista as cobranças por Id.
+            </summary>
+            <returns>As cobranças cadastradas com o id informado.</returns>
+            <response code="200">Returna todas as cobranças cadastradas com o id informado.</response>
+        </member>
+        <member name="M:ApiCobranca.Controllers.CobrancaController.GetByCpf(System.String)">
+            <summary>
+            Lista as cobranças por cpf.
+            </summary>
+            <returns>As cobranças cadastradas com o cpf informado.</returns>
+            <response code="200">Returna todas as cobranças cadastradas com o cpf informado.</response>
+        </member>
+    </members>
+</doc>
